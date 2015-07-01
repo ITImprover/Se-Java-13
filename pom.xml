@@ -76,14 +76,14 @@
   <!-- profiles -->
   <profiles>
     <profile>
-      <id>local</id>
+      <id>firefox</id>
       <properties>
-        <env>local</env>
+        <env>firefox</env>
         <user.username></user.username>
         <user.password></user.password>
         <grid2.hub></grid2.hub>
-        <site.url></site.url>
-        <browser.name></browser.name>
+        <site.url>http://localhost</site.url>
+        <browser.name>firefox</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
       </properties>
@@ -92,49 +92,31 @@
       </activation>
     </profile>
     <profile>
-      <id>dev</id>
+      <id>ie</id>
       <properties>
-        <env>dev</env>
+        <env>ie</env>
         <user.username></user.username>
         <user.password></user.password>
         <grid2.hub></grid2.hub>
-        <site.url></site.url>
-        <browser.name></browser.name>
+        <site.url>http://localhost</site.url>
+        <browser.name>ie</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
       </properties>
     </profile>
     <profile>
-      <id>test</id>
+      <id>chrome</id>
       <properties>
-        <env>test</env>
+        <env>chrome</env>
         <user.username></user.username>
         <user.password></user.password>
         <grid2.hub></grid2.hub>
-        <site.url></site.url>
-        <browser.name></browser.name>
+        <site.url>http://localhost</site.url>
+        <browser.name>chrome</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
       </properties>
     </profile>
-    <profile>
-      <id>prod</id>
-      <properties>
-        <env>prod</env>
-        <user.username></user.username>
-        <user.password></user.password>
-        <grid2.hub></grid2.hub>
-        <site.url></site.url>
-        <browser.name></browser.name>
-        <browser.version></browser.version>
-        <browser.platform></browser.platform>
-      </properties>
-    </profile>
-    <profile>
-      <id>force-local-driver</id>
-      <properties>
-        <grid2.hub></grid2.hub>
-      </properties>
-    </profile>
+
   </profiles>
 </project>
