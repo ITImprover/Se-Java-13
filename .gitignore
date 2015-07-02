@@ -17,4 +17,3 @@ hs_err_pid*
 *.ipr
 *.iws
 target/
-test-output/
